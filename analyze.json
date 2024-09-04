@@ -1,0 +1,74 @@
+{
+  "lastUpdate": 1725447449857,
+  "repoUrl": "https://github.com/thenullvek/luau-aeris",
+  "entries": {
+    "luau-analyze": [
+      {
+        "commit": {
+          "author": {
+            "email": "109095681+thenullvek@users.noreply.github.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "committer": {
+            "email": "109095681+thenullvek@users.noreply.github.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "distinct": true,
+          "id": "8208e9f409aa637e031fc7dac14ba03b2e9ad2a5",
+          "message": "Updated perfdata repo url",
+          "timestamp": "2024-09-04T12:50:27+02:00",
+          "tree_id": "13bdbe166bdd286b264041abaf8c51583d533352",
+          "url": "https://github.com/thenullvek/luau-aeris/commit/8208e9f409aa637e031fc7dac14ba03b2e9ad2a5"
+        },
+        "date": 1725447449856,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "map-nonstrict",
+            "value": 4.97385,
+            "unit": "4ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "map-strict",
+            "value": 6.03535,
+            "unit": "6ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "map-dcr",
+            "value": 6.03592,
+            "unit": "6ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-nonstrict",
+            "value": 8.22866,
+            "unit": "8ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-strict",
+            "value": 10.7118,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-dcr",
+            "value": 10.7116,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "lastUpdate": 1725447449978,
+  "repoUrl": "https://github.com/thenullvek/luau-aeris",
+  "entries": {
+    "luau-compile": [
+      {
+        "commit": {
+          "author": {
+            "email": "109095681+thenullvek@users.noreply.github.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "committer": {
+            "email": "109095681+thenullvek@users.noreply.github.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "distinct": true,
+          "id": "8208e9f409aa637e031fc7dac14ba03b2e9ad2a5",
+          "message": "Updated perfdata repo url",
+          "timestamp": "2024-09-04T12:50:27+02:00",
+          "tree_id": "13bdbe166bdd286b264041abaf8c51583d533352",
+          "url": "https://github.com/thenullvek/luau-aeris/commit/8208e9f409aa637e031fc7dac14ba03b2e9ad2a5"
+        },
+        "date": 1725447449978,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "map-O0",
+            "value": 0.662433,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O1",
+            "value": 0.728719,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2",
+            "value": 0.800633,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2-codegen",
+            "value": 3.31144,
+            "unit": "3ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2-t1-codegen",
+            "value": 3.4094,
+            "unit": "3ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O0",
+            "value": 1.60488,
+            "unit": "1ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O1",
+            "value": 1.78066,
+            "unit": "1ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2",
+            "value": 2.02837,
+            "unit": "2ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2-codegen",
+            "value": 10.2279,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2-t1-codegen",
+            "value": 10.4966,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          }
+        ]
+      }
+    ]
+  }
+}
