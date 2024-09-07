@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1725447449978,
+  "lastUpdate": 1725669100847,
   "repoUrl": "https://github.com/thenullvek/luau-aeris",
   "entries": {
     "luau-compile": [
@@ -84,6 +84,100 @@
           {
             "name": "regex-O2-codegen",
             "value": 10.2279,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2-t1-codegen",
+            "value": 10.4966,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "the@nullvek.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "committer": {
+            "email": "the@nullvek.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "distinct": true,
+          "id": "61794959d6f301435efdb5ea5a9db1495a927908",
+          "message": "Restored github workflow files to reactivate workflows",
+          "timestamp": "2024-09-07T02:24:15+02:00",
+          "tree_id": "ff8b1e8fa3cb7b5c63f279f098c9202bc031da0e",
+          "url": "https://github.com/thenullvek/luau-aeris/commit/61794959d6f301435efdb5ea5a9db1495a927908"
+        },
+        "date": 1725669100846,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "map-O0",
+            "value": 0.662367,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O1",
+            "value": 0.728662,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2",
+            "value": 0.800574,
+            "unit": "0ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2-codegen",
+            "value": 3.31142,
+            "unit": "3ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "map-O2-t1-codegen",
+            "value": 3.40931,
+            "unit": "3ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O0",
+            "value": 1.60483,
+            "unit": "1ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O1",
+            "value": 1.78061,
+            "unit": "1ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2",
+            "value": 2.02832,
+            "unit": "2ms",
+            "range": "±0%",
+            "extra": "luau-compile"
+          },
+          {
+            "name": "regex-O2-codegen",
+            "value": 10.2278,
             "unit": "ms",
             "range": "±0%",
             "extra": "luau-compile"
