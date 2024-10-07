@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1725694737530,
+  "lastUpdate": 1728266588780,
   "repoUrl": "https://github.com/thenullvek/luau-aeris",
   "entries": {
     "luau-analyze": [
@@ -195,6 +195,72 @@
           {
             "name": "regex-dcr",
             "value": 10.7155,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "the@nullvek.com",
+            "name": "Weihao Feng",
+            "username": "thenullvek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b2de210a8065f848aa2b201889d542cb289b0fd",
+          "message": "Merge branch 'luau-lang:master' into master",
+          "timestamp": "2024-10-07T03:49:02+02:00",
+          "tree_id": "f3af80535c8bf2fe48272c40b2d3ec23f4545250",
+          "url": "https://github.com/thenullvek/luau-aeris/commit/2b2de210a8065f848aa2b201889d542cb289b0fd"
+        },
+        "date": 1728266588780,
+        "tool": "benchmarkluau",
+        "benches": [
+          {
+            "name": "map-nonstrict",
+            "value": 4.97391,
+            "unit": "4ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "map-strict",
+            "value": 6.03536,
+            "unit": "6ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "map-dcr",
+            "value": 28.628,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-nonstrict",
+            "value": 8.23098,
+            "unit": "8ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-strict",
+            "value": 10.714,
+            "unit": "ms",
+            "range": "±0%",
+            "extra": "luau-analyze"
+          },
+          {
+            "name": "regex-dcr",
+            "value": 6463.01,
             "unit": "ms",
             "range": "±0%",
             "extra": "luau-analyze"
